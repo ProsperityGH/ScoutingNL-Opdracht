@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #fff;
+    height: 120px;
+    box-shadow: 0px 2px 5px #777;
+}
+.nav-link {
+    color: black !important;
+}
+.navbar-brand {
+    text-transform: uppercase;
+    color: red
+}
