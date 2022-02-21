@@ -10,3 +10,13 @@
     text-transform: uppercase;
     color: red
 }
+nav a:hover {
+    padding: 0px 0; 
+}
+.input-group{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+span {
+    margin-left: 20px;
+}
