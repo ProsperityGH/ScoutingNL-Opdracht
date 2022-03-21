@@ -13,12 +13,10 @@
 <body>
 
 <nav class="navbar navbar-expand-sm navbar-light shadow p-3 mb-5 bg-white rounded">
-  <!-- Brand/logo -->
   <a class="navbar-brand" href="#">
     <img src="assets/img/logo.png" alt="logo" style="width:120px;">
   </a>
-  
-  <!-- Links -->
+
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="#">Lorem</a>
@@ -32,242 +30,243 @@
   </ul>
 </nav>
 
-<div class="container-fluid">
-  <h3>Begin Vragenlijst</h3>
-  
-<form method="get" action="resultaat.php">
+<div id="container">
+  <div class="container-fluid">
+    <h3>Begin Vragenlijst</h3>
 
-<h4>Vraag 1</h4>
-  <p>Weet je hoe je een knoop moet maken in een touw?</p>
-</div>
+  <form method="get" action="resultaat.php">
 
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag1" value="5" aria-label="Radio button for following text input">
-    </div>
-    <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
+  <h4>Vraag 1</h4>
+    <p>Weet je hoe je een knoop moet maken in een touw?</p>
   </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag1" value="4" aria-label="Radio button for following text input">
-    </div>
-    <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag1" value="3" aria-label="Radio button for following text input">
-    </div>
-    <span>3 | Ik weet het en kan het toepassen</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag1" value="2" aria-label="Radio button for following text input">
-    </div>
-    <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag1" value="1" aria-label="Radio button for following text input">
-    </div>
-    <span>1 | Is bij mij onbekend / kan ik niet</span>
-  </div>
-</div>
 
-<div class="container-fluid">
-  <h4>Vraag 2</h4>
-  <p>Weet je hoe je een tent moet opzetten?</p>
-</div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag1" value="5" aria-label="Radio button for following text input">
+      </div>
+      <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag1" value="4" aria-label="Radio button for following text input">
+      </div>
+      <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag1" value="3" aria-label="Radio button for following text input">
+      </div>
+      <span>3 | Ik weet het en kan het toepassen</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag1" value="2" aria-label="Radio button for following text input">
+      </div>
+      <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag1" value="1" aria-label="Radio button for following text input">
+      </div>
+      <span>1 | Is bij mij onbekend / kan ik niet</span>
+    </div>
+  </div>
 
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag2" value="5" aria-label="Radio button for following text input">
-    </div>
-    <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
+  <div class="container-fluid">
+    <h4>Vraag 2</h4>
+    <p>Weet je hoe je een tent moet opzetten?</p>
   </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag2" value="4" aria-label="Radio button for following text input">
-    </div>
-    <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag2" value="3" aria-label="Radio button for following text input">
-    </div>
-    <span>3 | Ik weet het en kan het toepassen</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag2" value="2" a aria-label="Radio button for following text input">
-    </div>
-    <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag2" value="1" aaria-label="Radio button for following text input">
-    </div>
-    <span>1 | Is bij mij onbekend / kan ik niet</span>
-  </div>
-</div>
 
-<div class="container-fluid">
-  <h4>Vraag 3</h4>
-  <p>Weet je hoe een goede plek kan kiezen om een tent neer te zetten?</p>
-</div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag2" value="5" aria-label="Radio button for following text input">
+      </div>
+      <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag2" value="4" aria-label="Radio button for following text input">
+      </div>
+      <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag2" value="3" aria-label="Radio button for following text input">
+      </div>
+      <span>3 | Ik weet het en kan het toepassen</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag2" value="2" a aria-label="Radio button for following text input">
+      </div>
+      <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag2" value="1" aaria-label="Radio button for following text input">
+      </div>
+      <span>1 | Is bij mij onbekend / kan ik niet</span>
+    </div>
+  </div>
 
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag3" value="5" aaria-label="Radio button for following text input">
-    </div>
-    <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
+  <div class="container-fluid">
+    <h4>Vraag 3</h4>
+    <p>Weet je hoe een goede plek kan kiezen om een tent neer te zetten?</p>
   </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag3" value="4" aaria-label="Radio button for following text input">
-    </div>
-    <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag3" value="3" aaria-label="Radio button for following text input">
-    </div>
-    <span>3 | Ik weet het en kan het toepassen</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag3" value="2" aaria-label="Radio button for following text input">
-    </div>
-    <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag3" value="1" aaria-label="Radio button for following text input">
-    </div>
-    <span>1 | Is bij mij onbekend / kan ik niet</span>
-  </div>
-</div>`
 
-<div class="container-fluid">
-  <h4>Vraag 4</h4>
-  <p>Weet je hoe je het besten hout kan hakken?</p>
-</div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag3" value="5" aaria-label="Radio button for following text input">
+      </div>
+      <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag3" value="4" aaria-label="Radio button for following text input">
+      </div>
+      <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag3" value="3" aaria-label="Radio button for following text input">
+      </div>
+      <span>3 | Ik weet het en kan het toepassen</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag3" value="2" aaria-label="Radio button for following text input">
+      </div>
+      <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag3" value="1" aaria-label="Radio button for following text input">
+      </div>
+      <span>1 | Is bij mij onbekend / kan ik niet</span>
+    </div>
+  </div>
 
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag4" value="5" aaria-label="Radio button for following text input">
-    </div>
-    <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
+  <div class="container-fluid">
+    <h4>Vraag 4</h4>
+    <p>Weet je hoe je het besten hout kan hakken?</p>
   </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag4" value="4" aaria-label="Radio button for following text input">
-    </div>
-    <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag4" value="3" aaria-label="Radio button for following text input">
-    </div>
-    <span>3 | Ik weet het en kan het toepassen</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag4" value="2" aaria-label="Radio button for following text input">
-    </div>
-    <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag4" value="1" aaria-label="Radio button for following text input">
-    </div>
-    <span>1 | Is bij mij onbekend / kan ik niet</span>
-  </div>
-</div>
 
-<div class="container-fluid">
-  <h4>Vraag 5</h4>
-  <p>Weet je hoe je het beste een kampvuur kan maken?</p>
-</div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag4" value="5" aaria-label="Radio button for following text input">
+      </div>
+      <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag4" value="4" aaria-label="Radio button for following text input">
+      </div>
+      <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag4" value="3" aaria-label="Radio button for following text input">
+      </div>
+      <span>3 | Ik weet het en kan het toepassen</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag4" value="2" aaria-label="Radio button for following text input">
+      </div>
+      <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag4" value="1" aaria-label="Radio button for following text input">
+      </div>
+      <span>1 | Is bij mij onbekend / kan ik niet</span>
+    </div>
+  </div>
 
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag5" value="5" aaria-label="Radio button for following text input">
-    </div>
-    <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
+  <div class="container-fluid">
+    <h4>Vraag 5</h4>
+    <p>Weet je hoe je het beste een kampvuur kan maken?</p>
   </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag5" value="4" aaria-label="Radio button for following text input">
-    </div>
-    <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag5" value="3" aaria-label="Radio button for following text input">
-    </div>
-    <span>3 | Ik weet het en kan het toepassen</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag5" value="2" aaria-label="Radio button for following text input">
-    </div>
-    <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
-  </div>
-</div>
-<div class="input-group">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-    <input type="radio" name="vraag5" value="1" aaria-label="Radio button for following text input">
-    </div>
-    <span>1 | Is bij mij onbekend / kan ik niet</span>
-  </div>
-</div>
 
-<input type="submit" value="Submit" name="submit">
-</form> 
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag5" value="5" aaria-label="Radio button for following text input">
+      </div>
+      <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag5" value="4" aaria-label="Radio button for following text input">
+      </div>
+      <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag5" value="3" aaria-label="Radio button for following text input">
+      </div>
+      <span>3 | Ik weet het en kan het toepassen</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag5" value="2" aaria-label="Radio button for following text input">
+      </div>
+      <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
+    </div>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text">
+      <input type="radio" name="vraag5" value="1" aaria-label="Radio button for following text input">
+      </div>
+      <span>1 | Is bij mij onbekend / kan ik niet</span>
+    </div>
+  </div>
 
+  <input type="submit" value="Submit" name="submit" class="button">
+  </form> 
+</div>
 </body>
 </html>

@@ -32,9 +32,7 @@
   </ul>
 </nav>
 
-</body>
-</html>
-
+<div class="container">
 <?php
 if(isset($_GET['submit'])){
 
@@ -72,3 +70,7 @@ if(isset($_GET['submit'])){
     }
 }
 ?>
+</div>
+
+</body>
+</html>
