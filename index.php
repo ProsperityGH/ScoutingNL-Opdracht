@@ -268,5 +268,11 @@
   <input type="submit" value="Submit" name="submit" class="button">
   </form> 
 </div>
+
+<footer id="footer">
+   <h3> Copyright © 2022 Scouting Nederland
+    Dit is de on-officiële website van de vereniging Scouting Nederland.</h3>
+  </footer>
+
 </body>
 </html>

@@ -28,6 +28,9 @@ body {
     background-color: #fff;
     height: 120px;
     box-shadow: 0px 2px 5px #777;
+    border-bottom: 5px solid;
+    border-image-source : linear-gradient(100deg, rgb(214, 10, 10) 0%, rgb(10, 173, 10) 27%, rgb(255, 251, 0),rgb(0, 110, 255) 100%);
+    border-image-slice : 1;
 }
 .nav-link {
     color: black !important;
@@ -48,6 +51,9 @@ nav a:hover {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -25%);
+    border: 5px solid;
+    border-image-source : linear-gradient(0deg, rgb(214, 10, 10) 0%, rgb(10, 173, 10) 27%, rgb(255, 251, 0),rgb(0, 110, 255) 100%);
+    border-image-slice : 1;
 }
 .container {
     width: 80%;
@@ -57,7 +63,29 @@ nav a:hover {
     position: absolute;
     top: 39.5%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -25%);
+    border: 5px solid;
+    border-image-source : linear-gradient(0deg, rgb(214, 10, 10) 0%, rgb(10, 173, 10) 27%, rgb(255, 251, 0),rgb(0, 110, 255) 100%);
+    border-image-slice : 1;
+}
+#footer{
+    background-color: #fff;
+    height: 120px;
+    box-shadow: 0px 2px 5px #777;
+    border-top: 5px solid;
+    border-image-source : linear-gradient(100deg, rgb(214, 10, 10) 0%, rgb(10, 173, 10) 27%, rgb(255, 251, 0),rgb(0, 110, 255) 100%);
+    border-image-slice : 1;
+    margin-top: 1775px;
+}
+.footer{
+    background-color: #fff;
+    height: 120px;
+    box-shadow: 0px 2px 5px #777;
+    border-top: 5px solid;
+    border-image-source : linear-gradient(100deg, rgb(214, 10, 10) 0%, rgb(10, 173, 10) 27%, rgb(255, 251, 0),rgb(0, 110, 255) 100%);
+    border-image-slice : 1;
+    margin-top: 1775px;
 }
 .input-group{
     margin-top: 20px;
@@ -82,8 +110,9 @@ h4 {
   text-decoration: none;
   font-size: 16px;
   margin:0 auto;
-  margin-top: 45px;
+  margin-top: 30px;
   display:block;
   cursor: pointer;
   border-radius: 5px;
 }
+
