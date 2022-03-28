@@ -48,7 +48,7 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     position: absolute;
-    top: 80%;
+    top: 38rem;
     left: 50%;
     transform: translate(-50%, -25%);
     border: 5px solid;
@@ -61,7 +61,7 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     position: absolute;
-    top: 39.5%;
+    top: 20rem;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -25%);
@@ -76,7 +76,7 @@ nav a:hover {
     border-top: 5px solid;
     border-image-source : linear-gradient(100deg, rgb(214, 10, 10) 0%, rgb(10, 173, 10) 27%, rgb(255, 251, 0),rgb(0, 110, 255) 100%);
     border-image-slice : 1;
-    margin-top: 1775px;
+    margin-top: 115rem;
 }
 .footer{
     background-color: #fff;
@@ -85,7 +85,7 @@ nav a:hover {
     border-top: 5px solid;
     border-image-source : linear-gradient(100deg, rgb(214, 10, 10) 0%, rgb(10, 173, 10) 27%, rgb(255, 251, 0),rgb(0, 110, 255) 100%);
     border-image-slice : 1;
-    margin-top: 1775px;
+    margin-top: 15rem;
 }
 .input-group{
     margin-top: 20px;
