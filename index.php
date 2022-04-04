@@ -42,7 +42,7 @@
 
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag1" value="5" aria-label="Radio button for following text input">
       </div>
       <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
@@ -50,15 +50,15 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
-      <input type="radio" name="vraag1" value="4" aria-label="Radio button for following text input">
+      <div class="input-group-text" onClick="answer(this)">
+        <input type="radio" name="vraag1" value="4" id="vraag1" aria-label="Radio button for following text input">
       </div>
       <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
     </div>
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag1" value="3" aria-label="Radio button for following text input">
       </div>
       <span>3 | Ik weet het en kan het toepassen</span>
@@ -66,7 +66,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag1" value="2" aria-label="Radio button for following text input">
       </div>
       <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
@@ -74,7 +74,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag1" value="1" aria-label="Radio button for following text input">
       </div>
       <span>1 | Is bij mij onbekend / kan ik niet</span>
@@ -88,7 +88,7 @@
 
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag2" value="5" aria-label="Radio button for following text input">
       </div>
       <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
@@ -96,7 +96,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag2" value="4" aria-label="Radio button for following text input">
       </div>
       <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
@@ -104,7 +104,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag2" value="3" aria-label="Radio button for following text input">
       </div>
       <span>3 | Ik weet het en kan het toepassen</span>
@@ -112,7 +112,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag2" value="2" a aria-label="Radio button for following text input">
       </div>
       <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
@@ -120,7 +120,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag2" value="1" aaria-label="Radio button for following text input">
       </div>
       <span>1 | Is bij mij onbekend / kan ik niet</span>
@@ -134,7 +134,7 @@
 
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag3" value="5" aaria-label="Radio button for following text input">
       </div>
       <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
@@ -142,7 +142,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag3" value="4" aaria-label="Radio button for following text input">
       </div>
       <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
@@ -150,7 +150,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag3" value="3" aaria-label="Radio button for following text input">
       </div>
       <span>3 | Ik weet het en kan het toepassen</span>
@@ -158,7 +158,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag3" value="2" aaria-label="Radio button for following text input">
       </div>
       <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
@@ -166,7 +166,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag3" value="1" aaria-label="Radio button for following text input">
       </div>
       <span>1 | Is bij mij onbekend / kan ik niet</span>
@@ -180,7 +180,7 @@
 
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag4" value="5" aaria-label="Radio button for following text input">
       </div>
       <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
@@ -188,7 +188,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag4" value="4" aaria-label="Radio button for following text input">
       </div>
       <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
@@ -196,7 +196,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag4" value="3" aaria-label="Radio button for following text input">
       </div>
       <span>3 | Ik weet het en kan het toepassen</span>
@@ -204,7 +204,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag4" value="2" aaria-label="Radio button for following text input">
       </div>
       <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
@@ -212,7 +212,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag4" value="1" aaria-label="Radio button for following text input">
       </div>
       <span>1 | Is bij mij onbekend / kan ik niet</span>
@@ -226,7 +226,7 @@
 
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag5" value="5" aaria-label="Radio button for following text input">
       </div>
       <span>5 | Ik kan een ander uitleggen wat het is en hoe je het kan toepassen</span>
@@ -234,7 +234,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag5" value="4" aaria-label="Radio button for following text input">
       </div>
       <span>4 | Ik kan het toepassen in andere situaties / omstandigheden</span>
@@ -242,7 +242,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag5" value="3" aaria-label="Radio button for following text input">
       </div>
       <span>3 | Ik weet het en kan het toepassen</span>
@@ -250,7 +250,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag5" value="2" aaria-label="Radio button for following text input">
       </div>
       <span>2 | Ik weet ervan, maar heb het nooit gebruikt</span>
@@ -258,7 +258,7 @@
   </div>
   <div class="input-group">
     <div class="input-group-prepend">
-      <div class="input-group-text">
+      <div class="input-group-text" onClick="answer(this)">
       <input type="radio" name="vraag5" value="1" aaria-label="Radio button for following text input">
       </div>
       <span>1 | Is bij mij onbekend / kan ik niet</span>
@@ -274,5 +274,6 @@
     Dit is de on-officiële website van de vereniging Scouting Nederland.</h3>
   </footer>
 
+<script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -2,27 +2,28 @@
     margin: 0;
     padding: 0;
 }
+/* Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
-/* Track */
+/* Achtergrond scrollbar */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
     border-radius: 10px;
 }
-/* Handle */
+/* Scrollbar */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: rgb(167, 159, 159);
     border-radius: 10px;
 }
-/* Handle on hover */
+/* Scrollbar Hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: rgb(143, 141, 141);
 }
 body { 
     overflow-x: hidden;
     background-image: url(../img/water-min.jpg);
     height: 2000px !important; 
+    overflow: overlay;
 }
 .navbar {
     background-color: #fff;
@@ -115,4 +116,3 @@ h4 {
   cursor: pointer;
   border-radius: 5px;
 }
-
