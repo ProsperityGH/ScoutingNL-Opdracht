@@ -2,20 +2,16 @@
     margin: 0;
     padding: 0;
 }
-/* Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
-/* Achtergrond scrollbar */
 ::-webkit-scrollbar-track {
     border-radius: 10px;
 }
-/* Scrollbar */
 ::-webkit-scrollbar-thumb {
     background: rgb(167, 159, 159);
     border-radius: 10px;
 }
-/* Scrollbar Hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(143, 141, 141);
 }
